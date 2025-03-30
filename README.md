@@ -4,7 +4,7 @@ This program implements and compares different algorithms for computing the Disc
 
 The primary goal is to demonstrate and benchmark the performance difference between:
 1.  A naive Discrete Fourier Transform (DFT). Runs in `O(N^2)` time.
-2.  A recursive Fast Fourier Transform (FFT) based on the Cooley-Tukey algorithm. RUns in `O(N*log(N))` time
+2.  A recursive Fast Fourier Transform (FFT) based on the Cooley-Tukey algorithm. Runs in `O(N*log(N))` time
 3.  An optimized, iterative, in-place FFT (Cooley-Tukey with bit-reversal). Runs in `O(N*log(N))` time.
 
 The program generates a simple sine wave signal and runs each algorithm on it, measuring and printing the execution time.
